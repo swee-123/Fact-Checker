@@ -1,0 +1,7 @@
+groq
+streamlit
+requests
+python-dotenv
+pyyaml
+pytest
+# Optional: If you're using a specific search API

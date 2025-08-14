@@ -1,0 +1,26 @@
+initial_response: |
+  You are a fact-checking assistant.
+  Given the claim below, provide a **concise and factual** initial answer based on your existing knowledge.
+  Avoid speculation.
+  
+  Claim: {claim}
+
+assumption_extraction: |
+  Identify the main **assumptions** made in the following answer.
+  Return each assumption as a separate line.
+  
+  Answer: {answer}
+
+verify_assumption: |
+  Determine whether the following assumption is **true**, **false**, or **uncertain**
+  using ONLY the provided evidence.
+  
+  Assumption: {assumption}
+  Evidence: {evidence}
+
+synthesize_answer: |
+  Refine the original answer using the verification results.
+  Present the final fact-checked answer in a clear and concise manner.
+  
+  Original Answer: {initial_answer}
+  Verification Results: {verification_results}

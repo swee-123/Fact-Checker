@@ -1,0 +1,8 @@
+# Example queries for the Fact Checker
+# You can copy-paste these into the Streamlit UI for testing
+
+1. "The Great Wall of China is visible from space with the naked eye."
+2. "Albert Einstein was born in Germany."
+3. "The Amazon River is the longest river in the world."
+4. "Shakespeare wrote the play 'Macbeth'."
+5. "Python is a snake species found only in Africa."
